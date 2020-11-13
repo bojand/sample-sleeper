@@ -1,1 +1,0 @@
-web: bin/sample-sleeper

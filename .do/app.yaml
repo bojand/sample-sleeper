@@ -1,8 +1,7 @@
-name: sample-sleeper
-services:
+name: sample-sleeper-wrk
+workers:
 - environment_slug: go
   github:
     branch: main
-    deploy_on_push: true
-    repo: digitalocean/sample-sleeper
+    repo: bojand/sample-sleeper
   name: sample-sleeper
